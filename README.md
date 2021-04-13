@@ -51,7 +51,7 @@ terraform plan
 ```
 terraform apply -auto-approve
 ```
-####- or, with dynamic stuff (example: 1 public instance, 2 private instances)
+#### - or, with dynamic stuff (example: 1 public instance, 2 private instances)
 ```
 terraform apply -auto-approve -var 'pub_instance_count=1' -var 'priv_instance_count=2'
 ```
